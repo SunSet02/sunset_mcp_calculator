@@ -1,0 +1,16 @@
+[project]
+name = "sunset_mcp_calculator"
+version = "0.1.2"
+description = "a mcp calculator"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "build>=1.2.2.post1",
+    "mcp[cli]>=1.9.2",
+    "twine>=6.1.0",
+]
+[project.scripts]
+sunset_mcp_calculator = "sunset_mcp_calculator:main"
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
