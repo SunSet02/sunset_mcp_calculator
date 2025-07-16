@@ -39,6 +39,6 @@ def factorial(n: int) -> int:
 
 def main():
     mcp.run(transport="stdio")
-#
-# if __name__ == "__main__":
-#     main()
+
+if __name__ == "__main__":
+    main()

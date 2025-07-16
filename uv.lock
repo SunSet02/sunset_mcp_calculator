@@ -781,7 +781,7 @@ wheels = [
 
 [[package]]
 name = "sunset-mcp-calculator"
-version = "0.1.5"
+version = "0.1.6"
 source = { editable = "." }
 dependencies = [
     { name = "build" },
