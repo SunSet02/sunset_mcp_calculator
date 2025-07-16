@@ -37,6 +37,8 @@ def factorial(n: int) -> int:
     """计算整数阶乘"""
     return math.factorial(n)
 
+def main():
+    mcp.run(transport="stdio")
 
 if __name__ == "__main__":
-    mcp.run(transport="stdio")
+    main()
